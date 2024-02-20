@@ -13,9 +13,9 @@ s1= ((r1)**2)*pg
 s2= ((r2)**2)*pg
 s3=((r3)**2)*pg
 
-print(s1,s2,s3)
+#print(s1,s2,s3)
 
-Vol=(1/6*h)*(s1+((4*s2)**2)+s3)
+Vol=(1/6*h)*(s1+((4*s2)+s3))
 
 print(Vol)
 
