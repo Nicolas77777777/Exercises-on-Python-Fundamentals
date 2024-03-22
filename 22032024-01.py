@@ -42,7 +42,7 @@ print(Generalista(10))
 
 def Contauguali (ls,lsCheck):
     uguali=0
-    for i in range(len(ls)):
+    for i in range(len(ls)):     #range (len lunghezza dell'index
         if ls[i]==lsCheck[i]:
             uguali=uguali+1
     return uguali 
@@ -56,3 +56,6 @@ print(l2)
 
 print(Contauguali(l1,l2))
 
+
+def ContaUgualiInAltroPosto (ls,lsCheck):
+    es=[1,2,3,4,5,6]
