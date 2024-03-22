@@ -54,3 +54,4 @@ for c in worldcup:
         weee.append(c["DateOfBirth"])
 
 print(weee)
+
