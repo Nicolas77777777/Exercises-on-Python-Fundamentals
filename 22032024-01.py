@@ -59,3 +59,6 @@ print(Contauguali(l1,l2))
 
 def ContaUgualiInAltroPosto (ls,lsCheck):
     es=[1,2,3,4,5,6]
+
+
+    
