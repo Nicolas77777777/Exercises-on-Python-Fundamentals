@@ -59,33 +59,27 @@ def ContaUgualiInStessoEInAltro(ls, lsCheck):
 
 N = int(input("Inserire il numero di simboli: "))
 M = int(input("Inserire la lunghezza della lista: "))
-l1 = GeneraLista(N, M)
-l2 = GeneraLista(N, M)
-print(l1)
-print(l2)
-strike, ball = ContaUgualiInStessoEInAltro(l1, l2)
-print(strike, ball)
-print(l1)
-print(l2)
+# l1 = GeneraLista(N, M)
+# l2 = GeneraLista(N, M)
+# print(l1)
+# print(l2)
+# strike, ball = ContaUgualiInStessoEInAltro(l1, l2)
+# print(strike, ball)
+# print(l1)
+# print(l2)
 
 
 def ConvertiStringaDigitInListaNumeri(sd):
     return [int(x) for x in list(sd)]
 
 
-# Esempio di utilizzo:
-sd = input("Inserisci la tua prova: ")
-print(ConvertiStringaDigitInListaNumeri(sd))
-
-def GeneraLista(N, M):
-    lista = []
-    for i in range(M):
-        v = random.randint(1, N)
-        lista.append(v)
-    return lista
+# # Esempio di utilizzo:
+# sd = input("Inserisci la tua prova: ")
+# print(ConvertiStringaDigitInListaNumeri(sd))
 
 
 
+segreto=GeneraLista(N,M)
 
 while True:
     proposta = input("Utente inserirci la tua proposta: ")
@@ -95,4 +89,7 @@ while True:
     print("Strike: ", strike, "Ball: ", ball)
     if strike == M:
         print("BRAVO HAI VINTO")
-    break
+        break
+
+
+    
