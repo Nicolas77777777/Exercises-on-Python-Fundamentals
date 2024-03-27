@@ -27,4 +27,32 @@ MCD(2,2)=2
 
 # Implementare la funzione MCD(A,B) che calcola il massimo comun divisore tra A e B
 def MCD(A, B):
-    pass
+    while A != B :
+        if A > B:
+            A-=B
+        else:
+            B-=A 
+
+    return A
+
+print (MCD(38,24))
+
+print(MCD(1000000,1))
+
+print(MCD(14,10))
+
+
+
+
+
+
+        
+
+
+
+        
+
+        
+
+
+
